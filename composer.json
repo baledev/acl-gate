@@ -1,0 +1,35 @@
+{
+    "name": "siganurame/acl-gate",
+    "description": "Simple Laravel 5 ACL: roles and permissions based on Laravel Gate system",
+    "keywords": [
+        "laravel",
+        "acl",
+        "roles",
+        "permissions",
+        "gate",
+        "policy"
+    ],
+    "licence": "MIT",
+    "authors": [
+        {
+            "name": "Hermansyah",
+            "email": "eiximey@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "5.2.*",
+        "illuminate/database": "5.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Siganurame\\AclGate\\": "src/Siganurame/AclGate"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    },
+    "minimum-stability": "stable"
+}
